@@ -4,14 +4,14 @@ const myGames = [
         desc: "A classic 2D game. Implemented object pooling for projectiles and basic enemy AI patterns.",
         tech: "Unity / C#",
         image: "assets/images/SpaceInvaders.png",
-        github: "https://github.com/kemal-berke"
+        github: "https://github.com/kemal-berke",
     },
     {
         title: "Ancient Treasure Hunter",
         desc: "A physics-based 2D platformer set in the ruins of Ephesus. Focuses on level design and character controller mechanics.",
         tech: "Unity / C# / Physics",
         image: "assets/images/AncientTreasureHunter.png",
-        github: "https://github.com/kemal-berke"
+        github: "https://github.com/kemal-berke",
         projectLink: "games/ancient-treasure/index.html",
         buttonText: "Play Now"
     }
