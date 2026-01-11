@@ -12,6 +12,8 @@ const myGames = [
         tech: "Unity / C# / Physics",
         image: "assets/images/AncientTreasureHunter.png",
         github: "https://github.com/kemal-berke"
+        projectLink: "games/ancient-treasure/index.html",
+        buttonText: "Play Now"
     }
 ];
 
