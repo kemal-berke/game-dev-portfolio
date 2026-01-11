@@ -5,6 +5,8 @@ const myGames = [
         tech: "Unity / C#",
         image: "assets/images/SpaceInvaders.png",
         github: "https://github.com/kemal-berke",
+        projectLink: "https://github.com/kemal-berke",
+        buttonText: "View Project"
     },
     {
         title: "Ancient Treasure Hunter",
@@ -17,12 +19,11 @@ const myGames = [
     }
 ];
 
-
 function drawGames() {
     const container = document.getElementById('game-container');
     if (!container) return;
 
-    container.innerHTML = ""; 
+    container.innerHTML = "";
 
     myGames.forEach(game => {
         const cardHTML = `
@@ -33,7 +34,7 @@ function drawGames() {
                     <h3>${game.title}</h3>
                     <p>${game.desc}</p>
                     <div class="links">
-                        <a href="${game.github}" target="_blank">View Project</a>
+                        <a href="${game.projectLink}" target="_blank">${game.buttonText}</a>
                     </div>
                 </div>
             </div>
@@ -41,6 +42,5 @@ function drawGames() {
         container.innerHTML += cardHTML;
     });
 }
-
 
 window.onload = drawGames;
